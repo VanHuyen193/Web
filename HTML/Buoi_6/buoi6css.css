@@ -1,0 +1,18 @@
+h1{
+    font-size: 20px;
+    color: rgb(19, 125, 125);
+    text-shadow: springgreen;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: overline;
+
+}
+
+a{
+    text-decoration: none;
+    color: brown;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 5px red;
+}

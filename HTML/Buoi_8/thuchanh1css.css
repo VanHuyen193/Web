@@ -1,0 +1,75 @@
+.khoitin{
+    width: 1500x;
+    height: 716px;
+    margin-top: 30px;
+    padding-left: 30px;
+}
+.left img{
+    width: 293px;
+    height: 196px;
+}
+.left a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    padding-top: 20px;
+}
+.left{
+    float: left;
+    width: 293px;
+    margin-left: 10px;
+}
+.left p{
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.center img{
+    width: 650px;
+    height: 429px;
+}
+.center a{
+    text-decoration: none;
+    color: black;
+}
+.center{
+    width: 650px;
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.center a:hover p{
+    color: black;
+}
+
+.text a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+.text{
+    display: inline-block;
+    vertical-align: top;
+    width: 206px;
+    height: 118px;
+}
+.right{
+    float: left;
+    width: 406px;
+    height: 719px;
+}
+.row{
+    margin-bottom: 30px;
+}
+.image{
+    display: inline-block;
+    vertical-align: top;
+}
+
+a:hover{
+    color:blue;
+}
+

@@ -1,0 +1,40 @@
+.tieude {
+    border-bottom: solid #CA534Bed;
+    border-bottom-width: 6px;
+    width: 610px;
+}
+
+.tieude h3{
+    background-color: white;
+    color: #CA534Bed;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    top: 30px;
+    left: 37px;
+    width: 281px;
+}
+.tin{
+    width: 140px;
+    height: 145px;
+    margin-bottom: 35px;
+}
+.anh{
+    width: 140px;
+    height: 110px;
+}
+.tin a{
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 12px;
+    color: #444444;
+}
+.khoitin{
+    width: 605px;
+    height: 337px;
+}
+table{
+    border-spacing: 11px;
+}

@@ -1,0 +1,68 @@
+.head1{
+    display: flex;
+    align-items: center;
+}
+
+.head1 h1{
+    color: #337AB6;
+    font-size: 20px;
+}
+
+.head1 img{
+    margin-left: 141px;
+    margin-right: 10px;
+}
+
+div{
+    display: flex;
+    align-items: center;
+}
+
+.time{
+    margin-left: 150px;
+    width: 280px;
+}
+.contact{
+    margin-left: 650px;
+}
+.email{
+    margin-left: 26px;
+}
+.info{
+    margin-left: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.head2{
+    background-color: #0B2239;
+    height: 50px;
+}
+.img img{
+    height: 65px;
+    max-width: initial;
+    padding: 10px;
+}
+.list a{
+    text-decoration: none;
+    font-weight: 700;
+    margin-right: 10px;
+    color: #0B2239;
+    font-size: x-large;
+}
+.list a:hover{
+    color:rgb(33, 127, 96);
+}
+.list{
+    padding: 10px;
+}
+#righthead3{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.head3{
+    display: inline-block;
+    /* vertical-align: top; */
+}
