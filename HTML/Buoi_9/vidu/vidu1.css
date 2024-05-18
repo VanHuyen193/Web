@@ -1,0 +1,37 @@
+@font-face {
+    font-family: BanhMy;
+    src: url(UVNBanhMi.TTF);
+}
+
+h1 {
+    font-family: BanhMy;
+    color: crimson;
+}
+
+h2 {
+    font-family: "Danfo", serif;
+    color: brown;
+}
+
+p {
+    font-family: BanhMy;
+    font-size: 20px;
+    color: blue;
+}
+
+i {
+    color: rgb(182, 65, 114);
+    font-size: 20px;
+    transition: 1s;
+}
+
+.fa-docker {
+    font-size: 100px;
+}
+
+i:hover {
+    color: blue;
+    padding-left: 400px;
+    transition: 1s;
+    opacity: 0.2;
+}

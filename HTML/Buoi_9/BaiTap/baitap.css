@@ -1,0 +1,183 @@
+* {
+    box-sizing: inherit;
+}
+
+html {
+    /* HACK */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+}
+
+.all {
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid rgb(244, 236, 236);
+    margin: 0;
+}
+
+.leftIcon {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    margin-right: 3rem;
+    padding-right: 2rem;
+    height: 7.3rem;
+    border-right: solid rgb(244, 236, 236);
+    border-bottom: solid rgb(244, 236, 236);
+}
+
+.leftIcon i {
+    padding-bottom: 1.2rem;
+}
+
+.leftIcon .fa-link {
+    color: #C779AA;
+}
+
+.center {
+    width: 88rem;
+}
+
+.center .menu {
+    display: flex;
+    flex-direction: row;
+    border-top: solid #D0A14F;
+}
+
+.center .menu .button {
+    margin-top: 1rem;
+    background-color: #BC5562;
+    height: 3rem;
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+}
+
+.center .menu .title {
+    font-size: 3rem;
+    padding-left: 1.2rem;
+}
+
+.center .menu .title a {
+    color: #CA9553;
+}
+
+.center .menu .listmenu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.center .menu .listmenu li {
+    padding-left: 1.2rem;
+    padding-top: 1.2rem;
+    font-size: 2rem;
+}
+
+.center .menu a {
+    text-decoration: none;
+    color: #333;
+}
+
+.center .topcontents {
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid rgb(244, 236, 236);
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.center .topcontents .contents {
+    margin-right: 3.5rem;
+}
+
+.center .topcontents .contents .subtitle {
+    color: #333;
+    font-size: 1.8rem;
+    line-height: 3rem;
+}
+
+.domain {
+    color: #333;
+    font-size: medium;
+}
+
+.center .topcontents .contents .content {
+    color: #333;
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+.center .bottomcontents {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.center .bottomcontents .box {
+    width: 34rem;
+    margin-right: 3rem;
+}
+
+.center .bottomcontents .box .boxtitle {
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    width: 50rem;
+    border-top: solid #D0A14F;
+}
+
+.right .Title {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1.2rem;
+    padding-bottom: 0.2rem;
+}
+
+.right .Title .button {
+    margin-top: 0.5rem;
+    margin-right: 1.5rem;
+    background-color: #BC5562;
+    height: 3rem;
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+}
+
+.right .Title a {
+    font-size: 3rem;
+    color: #CA9553;
+}
+
+.right .rightbox {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: solid rgb(244, 236, 236);
+}
+
+.right .rightbox .rightcontent {
+    padding-top: 0;
+    margin-top: -1.2rem;
+    font-size: 1.8rem;
+    line-height: 2rem;
+}
+
+.right .rightbox .rightcontents {
+    margin-left: 1.5rem;
+    padding-top: 0;
+}
+
+a:hover {
+    color: rgb(97, 97, 190);
+}
