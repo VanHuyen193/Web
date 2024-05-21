@@ -1,0 +1,29 @@
+.tin {
+    width: 340px;
+    height: 294px;
+    position: relative;
+}
+
+.tin img {
+    width: 360px;
+    height: 294px;
+}
+
+a.tieude {
+    width: 340px;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    background-color: #333;
+    color: aliceblue;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    opacity: 0.8;
+}
+
+.tieude:hover {
+    color: blueviolet;
+}
+
