@@ -1,0 +1,71 @@
+header {
+    background-color: rgb(182, 135, 135);
+    color: aliceblue;
+    /* Căn giữa item theo chiều dọc */
+    align-items: center;
+    display: flex;
+    padding: 0px 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.menu {
+    /* dàn đều */
+    justify-content: space-between; 
+    width: 90%;
+}
+
+header ul.menu {
+    display: flex;
+    list-style: none;
+}
+
+header ul.menu li {
+    padding: 10px;
+    border-right: 1px solid white;
+    position: relative;
+
+}
+
+header ul.menu :last-child {
+    border: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 10%;
+}
+
+.logo h3 {
+    margin-left: 10px;
+}
+
+.submenu {
+    list-style: none;
+    position: absolute;
+    background-color: rgb(223, 178, 223);
+    width: 150px;
+    top: 54px;
+    
+}
+
+.submenu li {
+    margin-left: none;
+    border-bottom: 1px solid white;
+    /* Ẩn item */
+    display: none;
+}
+
+.menu li:hover ul.submenu li{
+    display: block;
+}
+
+.submenu li:hover{
+    background-color: antiquewhite;
+    color: blue;
+}
+
