@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>TINH TONG HAI SO NHAP VAO</h1>
+    <input type="text" id="sothunhat" value=""> <br> <br>
+    <input type="text" id="sothuhai" value=""> <br>
+    <div id="hienthi"></div> <br>
+    <input type="button" onclick="sum()" value="TINH TONG">
+
+
+    <script>
+        function sum(){
+            var a = document.getElementById("sothunhat").value;
+            var b = document.getElementById("sothuhai").value;
+
+            a = Number(a);  /*ep kieu thanh so*/
+            b = Number(b);
+
+            var sum = a + b;
+
+            document.getElementById("hienthi").innerHTML = sum; // hien thi trong the div
+            
+        }
+    </script>
+</body>
+</html>
