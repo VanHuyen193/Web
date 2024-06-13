@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.7.1.js"></script>
+    <script>
+        $(function(){
+            $("input").change(function(){
+                var a = $('#soA').val();
+                var b = $('#soB').val();
+                
+                var max = $('#max');
+                var min = $('#min');
+
+                if (a>b) {
+                    max.text(a);
+                    min.text(b);
+                }
+                else {
+                    max.text(b);
+                    min.text(a);
+                }
+            })
+        });
+    </script>
+</head>
+<body>
+    <input type="text" id="soA" value="0">
+    <input type="text" id="soB" value="0">
+    <div>
+        Max: <span id="max"></span>
+    </div>
+    <div>
+        Min: <span id="min"></span>
+    </div>
+</body>
+</html>
